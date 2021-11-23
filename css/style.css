@@ -206,7 +206,7 @@ input {
     column-gap: 1rem;
     height: 3rem;
   }
-  
+
   .heading {
     grid-column: 1;
     grid-row: 1;
@@ -234,11 +234,12 @@ input {
   .nav-item {
     border: none;
   }
+
   .nav-link:link {
     text-decoration: none;
   }
 
-  
+
   .footer {
     grid-template-areas:
       "navigation sns"
@@ -251,9 +252,11 @@ input {
     background-color: white;
     border: none;
   }
+
   .footer-nav__item:not(:last-child) {
     border-right: 1px solid grey;
   }
+
   .footer-second {
     margin-bottom: 1rem;
   }
