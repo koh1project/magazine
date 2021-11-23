@@ -197,6 +197,19 @@ input {
   height: 100%;
 }
 
+/* Share links */
+.share {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.share li {
+  text-align: center;
+}
+
+
 
 
 @media (min-width: 1000px) {
@@ -239,6 +252,22 @@ input {
     text-decoration: none;
   }
 
+  .share {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-top: 1rem;
+    align-self: start;
+  }
+
+  .share li {
+    text-align: right;
+  }
+
+  .share li a:link {
+    display: inline-block;
+    height: 100%;
+    margin-top: 1rem;
+  }
 
   .footer {
     grid-template-areas:

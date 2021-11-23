@@ -7,13 +7,126 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/contact.css">
   <script src="https://kit.fontawesome.com/c9f5ef83b0.js" crossorigin="anonymous"></script>
   <title>Contact</title>
 </head>
 
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="heading">My Magizine</h1>
+      <div class="search-box">
+        <input type="text" placeholder="search">
+        <label for="heading-search" class="visually-hidden">search</label>
+        <button aria-label="submit search query" type="submit" id="heading-search">
+          <span class="visually-hidden">submit search query</span>
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="article.html" class="nav-link">Article</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="sources.html" class="nav-link">Sources</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <div class="content-container">
+      <ul class="share">
+        <li>
+          <a href="https://facebook.com" aria-label="Facebook">
+            <i aria-hidden="true" class="fab fa-facebook-square fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" aria-label="Instagram">
+            <i aria-hidden="true" class="fab fa-instagram fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" aria-label="Twitter">
+            <i aria-hidden="true" class="fab fa-twitter fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+      <main>
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iste consequuntur dolorem enim eveniet quod adipisci cum! Unde vel, asperiores mollitia at pariatur blanditiis fuga iure facilis, modi neque laboriosam.</p>
+        <form action="https://formspree.io/f/xgedweag" method="POST">
+          <div class="form-container">
+            <label for="name">
+              Full name:
+            </label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-container">
+            <label for="_replyto">
+              Email Address:
+            </label>
+            <input type="email" name="_replyto">
+          </div>
+          <div class="message-container">
+            <label for="message">
+              Your message:
+            </label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+        <div class="contact-information">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Telephone Number: <a href="tel:+12345678901"> 1-234-567-8901</a></li>
+            <li>Email Address: <a href="mailto:ktanaka05@mylangara.ca"> ktanaka05@mylangara.ca</a></li>
+          </ul>
+        </div>
+      </main>
+
+    </div>
+    <footer class="footer">
+      <div class="footer-first">
+        <ul class="sns">
+          <li>
+            <a href="https://facebook.com" aria-label="Facebook">
+              <i aria-hidden="true" class="fab fa-facebook-square fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" aria-label="Instagram">
+              <i aria-hidden="true" class="fab fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" aria-label="Twitter">
+              <i aria-hidden="true" class="fab fa-twitter fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.com" aria-label="Google">
+              <i aria-hidden="true" class="fab fa-google fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-second">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item"><a href="article.html" class="footer-nav__link">Home</a></li>
+          <li class="footer-nav__item"><a href="article.html" class="footer-nav__link">Article</a></li>
+          <li class="footer-nav__item"><a href="contact.html" class="footer-nav__link">Contact</a></li>
+          <li class="footer-nav__item"><a href="sources.html" class="footer-nav__link">Sources</a></li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <p class="copyright">
+          &copy; 2021, Koichi Tanaka, all rights reserved.
+        </p>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

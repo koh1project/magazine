@@ -14,16 +14,6 @@
   grid-template-columns: 1fr;
 }
 
-.share {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 20rem;
-  margin: 0 auto;
-}
-
-.share li {
-  text-align: center;
-}
 
 .article-info {
   display: flex;
@@ -114,22 +104,6 @@ aside {
     gap: 2rem;
   }
 
-  .share {
-    grid-template-columns: 1fr;
-    width: 100%;
-    padding-top: 1rem;
-    align-self: start;
-  }
-
-  .share li {
-    text-align: right;
-  }
-  .share li a:link{
-    display: inline-block;
-    height: 100%;
-    margin-top: 1rem;
-  }
-
   .latest-row__image {
     width: 5rem;
     justify-self: center;
@@ -140,3 +114,5 @@ aside {
     line-height: 1rem;
   }
 }
+
+
