@@ -18,6 +18,8 @@
   grid-template-columns: 1fr;
   width: 90%;
   margin: 0 auto;
+
+  margin-top: 3rem;
 }
 
 article {
@@ -37,6 +39,13 @@ article img {
 
 .article-heading {
   margin-top: 1rem;
+  line-height: 3rem;
+}
+
+.article-heading__link {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .article-description {
@@ -56,8 +65,12 @@ article img {
 
 .more-button {
   width: 60vw;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+  background-color: var(--color-accent);
+  color: var(--color-black);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
 }
-
 
 
 @media (min-width: 1000px) {
@@ -81,8 +94,6 @@ article img {
     width: 15rem;
     height: 5rem;
     font-size: 1.5rem;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, .7);
   }
 
 }

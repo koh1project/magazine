@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Noto+Sans&display=swap');
 
 :root {
-  --color-primary: rgb(23, 70, 144);
-  --color-accent-primary: rgb(224, 146, 133);
-  --color-accent-secondary: rgb(250, 213, 209);
+  --color-primary: rgba(0, 9, 87, 1);
+  --color-secondary: rgb(52, 76, 183, .6);
+  --color-accent: rgba(235, 230, 69, .7);
 
-  --color-header: rgb(217, 243, 210);
+  --color-header: rgba(0, 0, 0, 0);
   --color-header-link: var(--color-accent-secondary);
   --color-nav-bg: rgb(64, 64, 64);
-  --color-footer-link: rgb(0, 0, 0);
+  --color-footer-link: rgba(0, 0, 0, 1);
 
   --color-main: rgb(59, 58, 64);
   --color-footer: rgb(59, 58, 64);
   --color-white: rgb(255, 255, 255);
+  --color-black: rgba(0, 0, 0, 1);
+
+  --color-sub-heading: rgb(131, 131, 131);
+
+  --color-bg-footer-nav-item-sp: rgb(131, 131, 131);
+  --color-bg-footer-nav-item: rgba(255, 255, 255, 0.274);
+
 }
 
 body {
@@ -38,10 +45,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: var(--color-secondary);
 }
 
 h3 {
   font-size: 1.5rem;
+  color: var(--color-secondary);
 }
 
 a:link,
@@ -63,6 +72,7 @@ a:active {
   grid-template-rows: repeat(3, 1fr);
 
   row-gap: 1rem;
+  color: var(--color-header);
 }
 
 .heading {
@@ -160,6 +170,7 @@ input {
 
 .footer-first {
   grid-area: sns;
+  padding: 1rem 0;
 }
 
 .sns {
@@ -170,7 +181,6 @@ input {
 .sns li {
   text-align: center;
 }
-
 
 .copyright {
   text-align: center;
@@ -187,7 +197,7 @@ input {
 }
 
 .footer-nav__item {
-  background-color: grey;
+  background-color: var(--color-bg-footer-nav-item-sp);
   border: 1px solid black;
 }
 
@@ -198,7 +208,7 @@ input {
   text-decoration: none;
   padding: 1rem 0;
 
-  color: var(color-w)
+  color: var(--color-footer-link)
 }
 
 .footer-third {
@@ -219,6 +229,9 @@ input {
   text-align: center;
 }
 
+.copyright {
+  color: var(--color-white);
+}
 
 
 
@@ -288,7 +301,7 @@ input {
   }
 
   .footer-nav__item {
-    background-color: white;
+    background-color: var(--color-bg-footer-nav-item);
     border: none;
   }
 
@@ -307,7 +320,5 @@ input {
     justify-content: center;
   }
 
-  .copyright {
-    color: var(--color-white);
-  }
+
 }
