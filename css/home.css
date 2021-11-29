@@ -2,6 +2,11 @@
 
 /* Top image */
 
+.content-container{
+  margin: 1rem auto;
+  margin-top: calc(150px + 1rem);
+}
+
 .top-image {
   height: 40vh;
 }
@@ -11,6 +16,7 @@
   width: 100%;
   object-fit: cover;
   object-position: center 40%;
+
 }
 
 .articles {
@@ -18,8 +24,6 @@
   grid-template-columns: 1fr;
   width: 90%;
   margin: 0 auto;
-
-  margin-top: 3rem;
 }
 
 article {

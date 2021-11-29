@@ -9,9 +9,10 @@
   object-position: center 40%;
 }
 
-.content-container {
-  display: grid;
-  grid-template-columns: 1fr;
+.top-image,
+.content-container,
+footer {
+  transform: translateY(calc(150px + 1rem));
 }
 
 .share {

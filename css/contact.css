@@ -2,7 +2,10 @@
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 1rem;
+  margin: 1rem auto;
+  margin-top: calc(150px + 1rem);
 }
+
 
 .share {
   padding: 2rem 0;

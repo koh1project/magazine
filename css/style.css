@@ -5,7 +5,7 @@
   --color-secondary: rgb(52, 76, 183, .6);
   --color-accent: rgba(235, 230, 69, .7);
 
-  --color-header: rgba(0, 0, 0, 0);
+  --color-header: rgba(255, 255, 255, 1);
   --color-footer-link: rgba(0, 0, 0, 1);
 
   --color-main: rgb(59, 58, 64);
@@ -71,7 +71,27 @@ a:active {
 
   row-gap: 1rem;
   color: var(--color-header);
+  background-color: var(--color-header);;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: -webkit-transform .4s ease;
+
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
 }
+
+.header--unpinned {
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+
 
 .heading {
   grid-column: 1 / 3;
