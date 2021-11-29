@@ -1,13 +1,15 @@
+.content-container{
+  width: 90%;
+  margin: 1rem auto;
+}
+
 main {
   overflow: hidden;
   max-width: 100%;
 }
 
 .table-container {
-  border: 1px solid rgba(192, 193, 218, 255);
-  border-radius: 10px;
   padding: 1rem;
-
   overflow: auto;
   white-space: normal;
 
@@ -15,18 +17,19 @@ main {
 
 table {
   display: block;
-  width: 800px;
+  width: 900px;
   border-collapse: collapse;
 }
 
 caption {
   text-align: left;
   font-weight: bold;
+  margin: 1rem 0;
 }
 
 thead {
-  background-color: #01008a;
-  color: white;
+  background-color: var(--color-accent);
+  color: var(--color-black);
 }
 
 thead th {
@@ -35,12 +38,12 @@ thead th {
 
 tbody th {
   background-color: rgba(239, 248, 255, 255);
-  color: rgba(1, 2, 137, 255);
+  color: var(--color-primary);
 }
 
 th,
 td {
-  border: 1px solid rgba(106, 107, 185, 255);
+  border: 1px solid  var(--color-secondary);
   padding: 0.5rem;
   max-width: 800px;
 }
@@ -62,4 +65,10 @@ td {
     margin: 0 auto;
   }
 
+}
+
+@media screen and (min-width:1240px) {
+  main h2 {
+    margin-left: 10vw;
+  }
 }
