@@ -54,27 +54,28 @@
       </ul>
       <main>
         <h2>Contact</h2>
-        <p class="contact-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iste consequuntur dolorem enim eveniet quod adipisci cum! Unde vel, asperiores mollitia at pariatur blanditiis fuga iure facilis, modi neque laboriosam.</p>
+        <p class="contact-text">We are looking forward to hearing from you. Please fill in the following fields and click the "send" button.
+          A representative will get back to you within a few days.</p>
         <form class="contact-form" action="https://formspree.io/f/xgedweag" method="POST">
           <fieldset>
-            <legend>Please Fill below</legend>
+            <legend>Please Fill below:</legend>
             <div class="form-container">
               <label for="name">
                 Full name:
               </label>
-              <input class="form-container__input" type="text" name="name" id="name" placeholder="Your name">
+              <input class="form-container__input" type="text" name="name" id="name" placeholder="Your name" required>
             </div>
             <div class="form-container">
               <label for="_replyto">
                 Email Address:
               </label>
-              <input class="form-container__input" type="email" name="_replyto" placeholder="your-mail@mail.com">
+              <input class="form-container__input" type="email" name="_replyto" placeholder="your-mail@mail.com" required>
             </div>
             <div class="message-container">
               <label for="message">
                 Your message:
               </label>
-              <textarea class="form-container__input message" name="message" id="message"></textarea>
+              <textarea class="form-container__input message" name="message" id="message" required></textarea>
             </div>
 
             <button class="submit-button" type="submit" aria-label="Send your message">

@@ -6,8 +6,6 @@
   --color-accent: rgba(235, 230, 69, .7);
 
   --color-header: rgba(0, 0, 0, 0);
-  --color-header-link: var(--color-accent-secondary);
-  --color-nav-bg: rgb(64, 64, 64);
   --color-footer-link: rgba(0, 0, 0, 1);
 
   --color-main: rgb(59, 58, 64);
@@ -17,7 +15,7 @@
 
   --color-sub-heading: rgb(131, 131, 131);
 
-  --color-bg-footer-nav-item-sp: rgb(131, 131, 131);
+  --color-bg-footer-nav-item-sp: rgba(131, 131, 131, 0.322);
   --color-bg-footer-nav-item: rgba(255, 255, 255, 0.274);
 
 }
