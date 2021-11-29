@@ -1,0 +1,65 @@
+main {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.table-container {
+  border: 1px solid rgba(192, 193, 218, 255);
+  border-radius: 10px;
+  padding: 1rem;
+
+  overflow: auto;
+  white-space: normal;
+
+}
+
+table {
+  display: block;
+  width: 800px;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+thead {
+  background-color: #01008a;
+  color: white;
+}
+
+thead th {
+  padding: 1rem;
+}
+
+tbody th {
+  background-color: rgba(239, 248, 255, 255);
+  color: rgba(1, 2, 137, 255);
+}
+
+th,
+td {
+  border: 1px solid rgba(106, 107, 185, 255);
+  padding: 0.5rem;
+  max-width: 800px;
+}
+
+
+
+
+@media screen and (min-width:800px) {
+  main {
+    overflow: visible;
+  }
+
+  .table-container {
+    overflow: auto;
+  }
+
+  table {
+    white-space: normal;
+    margin: 0 auto;
+  }
+
+}
