@@ -47,9 +47,18 @@
   margin-top: 1rem;
 }
 
+.article-list li{
+  list-style: disc;
+  margin-left: 2rem;
+}
+
 .article__image-container {
   display: flex;
   justify-content: center;
+}
+
+.article-image {
+  max-width: 90%;
 }
 
 .tag-container {
