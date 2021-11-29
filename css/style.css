@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,400;0,600;1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Noto+Sans&display=swap');
 
 :root {
   --color-primary: rgb(23, 70, 144);
@@ -17,13 +17,20 @@
 
 body {
   margin: 0 auto;
-  /* font-family: 'Jost', sans-serif; */
 }
+
+p, span, time, img, a, blockquote, li {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', cursive;
+}
+
 
 h1 {
   font-size: 1.5rem;
   color: var(--color-primary);
-  /* font-family: 'Bebas Neue', cursive; */
 
   margin-left: 1rem;
   margin-top: 3rem;
