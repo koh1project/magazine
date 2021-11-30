@@ -3,7 +3,7 @@
 .content-container {
   width: 90%;
   margin: 1rem auto;
-  margin-top: calc(150px + 1rem);
+  margin-top: calc(150px + 2rem);
 }
 
 main {

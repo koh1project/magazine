@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: rgba(0, 9, 87, 1);
-  --color-secondary: rgb(52, 76, 183, .6);
+  --color-secondary: rgb(52, 76, 183);
   --color-accent: rgba(235, 230, 69, .7);
 
   --color-header: rgba(255, 255, 255, 1);
@@ -13,7 +13,7 @@
   --color-white: rgb(255, 255, 255);
   --color-black: rgba(0, 0, 0, 1);
 
-  --color-sub-heading: rgb(131, 131, 131);
+  --color-sub-heading: rgba(77, 77, 77, 1);
 
   --color-bg-footer-nav-item-sp: rgba(131, 131, 131, 0.322);
   --color-bg-footer-nav-item: rgba(255, 255, 255, 0.274);

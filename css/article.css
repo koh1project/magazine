@@ -85,7 +85,7 @@ main h3 {
 .tag {
   border: 1px solid grey;
   padding: .3rem;
-  color: grey;
+  color: var(--color-black);
 }
 
 aside {
