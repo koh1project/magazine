@@ -101,6 +101,9 @@ a:active {
   transform: translateY(-150%);
 }
 
+.logo-link:link {
+  text-decoration: none;
+}
 
 .heading {
   grid-column: 1 / 3;
