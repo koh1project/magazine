@@ -56,6 +56,10 @@ td {
     overflow: visible;
   }
 
+  .content-container {
+    margin-top: 50px;
+  }
+
   .table-container {
     overflow: auto;
   }
