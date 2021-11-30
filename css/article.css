@@ -126,6 +126,15 @@ aside {
     gap: 2rem;
     margin-top: 3rem;
   }
+  .top-image {
+    height: 70vh;
+  }
+
+  .top-image,
+  .content-container,
+  footer {
+    transform: translateY(50px);
+  }
 
   aside {
     align-self: start;

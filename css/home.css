@@ -41,7 +41,8 @@ article img {
 
 .article-heading {
   margin-top: 1rem;
-  line-height: 3rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
 }
 
 .article-heading__link {
@@ -79,6 +80,10 @@ article img {
     height: 60vh;
   }
 
+  .content-container {
+    margin-top: 50px;
+  }
+  
   .articles {
     grid-template-columns: repeat(2, 1fr);
   }
