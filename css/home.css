@@ -2,7 +2,7 @@
 
 /* Top image */
 
-.content-container{
+.content-container {
   margin: 1rem auto;
   margin-top: calc(150px + 1rem);
 }
@@ -16,7 +16,6 @@
   width: 100%;
   object-fit: cover;
   object-position: center 40%;
-
 }
 
 .articles {
@@ -37,8 +36,7 @@ article {
 }
 
 article img {
-  /* max-width: 300px; */
-  width:100%;
+  width: 100%;
 }
 
 .article-heading {
@@ -76,7 +74,6 @@ article img {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
 }
 
-
 @media (min-width: 1000px) {
   .top-image {
     height: 60vh;
@@ -85,9 +82,10 @@ article img {
   .articles {
     grid-template-columns: repeat(2, 1fr);
   }
+
   article img {
     max-width: 300px;
-    width:30vw;
+    width: 30vw;
   }
 
   .heading {

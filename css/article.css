@@ -1,3 +1,5 @@
+/* Article page */
+
 .top-image {
   height: 30vh;
 }
@@ -91,14 +93,11 @@ aside {
   border: 1px solid black;
 }
 
-
 .latest-row {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 2rem;
-
   padding: 1rem;
-
   border-top: .5px solid grey;
 }
 
@@ -142,5 +141,4 @@ aside {
   .latest-row__right--text {
     line-height: 1rem;
   }
-
 }

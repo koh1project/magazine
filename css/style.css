@@ -24,11 +24,19 @@ body {
   margin: 0 auto;
 }
 
-p, span, time, img, a, blockquote, li {
+p,
+span,
+time,
+img,
+a,
+blockquote,
+li {
   font-family: 'Noto Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Merriweather', cursive;
 }
 
@@ -71,7 +79,8 @@ a:active {
 
   row-gap: 1rem;
   color: var(--color-header);
-  background-color: var(--color-header);;
+  background-color: var(--color-header);
+  ;
 
   position: fixed;
   top: 0;
