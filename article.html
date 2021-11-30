@@ -168,31 +168,32 @@
       </div>
     </footer>
   </div>
+
+
+  <script>
+    const header = document.querySelector(".header");
+    const hH = header.clientHeight;
+    const winH = window.innerHeight;
+    const docH = document.documentElement.scrollHeight;
+    const windBtm = docH - winH;
+    let pos = 0;
+    let lastPos = 0;
+
+    const onScroll = () => {
+      if (pos > hH && pos > lastPos) {
+        header.classList.add("header--unpinned");
+      }
+      if (pos < lastPos || windBtm <= pos) {
+        header.classList.remove("header--unpinned");
+      }
+      lastPos = pos;
+    };
+
+    window.addEventListener("scroll", () => {
+      pos = window.scrollY;
+      onScroll();
+    });
+  </script>
 </body>
-
-<script>
-  const header = document.querySelector(".header");
-  const hH = header.clientHeight;
-  const winH = window.innerHeight;
-  const docH = document.documentElement.scrollHeight;
-  const windBtm = docH - winH;
-  let pos = 0;
-  let lastPos = 0;
-
-  const onScroll = () => {
-    if (pos > hH && pos > lastPos) {
-      header.classList.add("header--unpinned");
-    }
-    if (pos < lastPos || windBtm <= pos) {
-      header.classList.remove("header--unpinned");
-    }
-    lastPos = pos;
-  };
-
-  window.addEventListener("scroll", () => {
-    pos = window.scrollY;
-    onScroll();
-  });
-</script>
 
 </html>
