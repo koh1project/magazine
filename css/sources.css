@@ -50,6 +50,12 @@ td {
   max-width: 800px;
 }
 
+tr img {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+
 
 @media screen and (min-width:800px) {
   main {

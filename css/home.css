@@ -37,6 +37,8 @@ article {
 
 article img {
   width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .article-heading {
@@ -47,8 +49,15 @@ article img {
 
 .article-heading__link {
   display: inline-block;
-  text-align: center;
   padding: 1rem 0;
+}
+.article-heading__link:link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.article-heading__link:link h2 {
+  text-align: center;
 }
 
 .article-description {
@@ -58,6 +67,10 @@ article img {
 .article-createdAt {
   margin-top: 1rem;
   font-size: .7rem;
+}
+
+.article-author {
+  margin-top: .5rem;
 }
 
 .button-container {
