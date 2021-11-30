@@ -11,6 +11,11 @@ main {
   max-width: 100%;
 }
 
+.heading-sources {
+  font-size:1.5rem;
+  color: var(--color-secondary);
+}
+
 .table-container {
   padding: 1rem;
   overflow: auto;
@@ -39,7 +44,6 @@ thead th {
 }
 
 tbody th {
-  background-color: rgba(239, 248, 255, 255);
   color: var(--color-primary);
 }
 
@@ -56,6 +60,22 @@ tr img {
   object-fit: contain;
 }
 
+.text-sources {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.text-sources__heading {
+  font-size:1rem;
+  color: var(--color-secondary);
+  margin-top: 1rem;
+}
+
+.text-sources__link:link {
+  display: inline-block;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
 
 @media screen and (min-width:800px) {
   main {
