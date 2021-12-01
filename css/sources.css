@@ -12,8 +12,9 @@ main {
 }
 
 .heading-sources {
-  font-size:1.5rem;
+  font-size: 1.5rem;
   color: var(--color-secondary);
+  margin-top: 1.5rem;
 }
 
 .table-container {
@@ -66,7 +67,7 @@ tr img {
 }
 
 .text-sources__heading {
-  font-size:1rem;
+  font-size: 1rem;
   color: var(--color-secondary);
   margin-top: 1rem;
 }
@@ -80,6 +81,7 @@ tr img {
 @media screen and (min-width:800px) {
   main {
     overflow: visible;
+    padding-left: 20vw;
   }
 
   .content-container {
@@ -92,12 +94,7 @@ tr img {
 
   table {
     white-space: normal;
-    margin: 0 auto;
   }
 }
 
-@media screen and (min-width:1240px) {
-  main h2 {
-    margin-left: 10vw;
-  }
-}
+@media screen and (min-width:1240px) {}
