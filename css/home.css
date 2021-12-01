@@ -26,12 +26,8 @@
 }
 
 article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   padding: 1rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 1rem;
 }
 
@@ -47,17 +43,13 @@ article img {
   font-size: 1.5rem;
 }
 
-.article-heading__link {
-  display: inline-block;
-  padding: 1rem 0;
-}
 .article-heading__link:link {
   display: inline-block;
   text-decoration: none;
-}
-
-.article-heading__link:link h2 {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .article-description {
@@ -96,14 +88,22 @@ article img {
   .content-container {
     margin-top: 50px;
   }
-  
+
   .articles {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  article {
+    max-width: 20rem;
+    justify-self: center;
   }
 
   article img {
     max-width: 300px;
-    width: 30vw;
+    /* width: 30vw; */
+    width: 100%;
+    margin: 0;
   }
 
   .heading {
