@@ -75,14 +75,15 @@ input {
   }
 
   form {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .message-container {
     grid-column: 1 / span 2;
   }
 
-  .form-container__input.message {
-    width: 100%;
+  .form-container__input {
+    width: 90%;
+    max-width: 1000px;
   }
 }
