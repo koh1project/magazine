@@ -252,6 +252,7 @@ input {
   grid-template-columns: repeat(3, 1fr);
   width: 20rem;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .share li {
@@ -326,6 +327,7 @@ textarea:focus {
     width: 100%;
     padding-top: 1rem;
     align-self: start;
+    padding: 0;
   }
 
   .share li {
@@ -335,7 +337,7 @@ textarea:focus {
   .share li a:link {
     display: inline-block;
     height: 100%;
-    margin-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .footer {
